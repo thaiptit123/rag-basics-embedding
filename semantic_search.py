@@ -3,11 +3,6 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 import time
 
-def cosine_similarity(vec_a, vec_b):
-    """(Đã bỏ) Tính độ tương đồng Cosine thủ công. 
-    Khi vector đã L2-normalize, dot product chính là Cosine Similarity!
-    Vì vậy trong thực tế ta sẽ dùng np.dot hoặc phép nhân ma trận (@) để tối ưu tốc độ."""
-    pass
 
 def main():
     print("1. Đang khởi tạo mô hình embedding (keepitreal/vietnamese-sbert)...")
