@@ -1,7 +1,6 @@
 import json
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from numpy.linalg import norm
 import time
 
 def cosine_similarity(vec_a, vec_b):
@@ -96,12 +95,13 @@ def main():
 
         print(f"Kết quả Top {top_k}:")
         print(f"{'ID':<4} | {'Score':<6} | {'Topic':<11} | {'Trích đoạn'}")
-        print("-" * 70)
+        print("-" * 55)
         for res in results[:top_k]:
-            # Chỉ hiển thị 35 ký tự để tránh tràn PDF
-            snippet = res["text"][:35].replace('\n', ' ') + "..." if len(res["text"]) > 35 else res["text"].replace('\n', ' ')
+            max_length = 28
+            text = res["text"].replace('\n', ' ')
+            snippet = text[:max_length] + "..." if len(text) > max_length else text
             print(f"{res['id']:<4} | {res['score']:.4f} | {res['topic']:<11} | {snippet}")
-        print("-" * 70 + "\n")
+        print("-" * 55 + "\n")
 
 if __name__ == "__main__":
     main()
