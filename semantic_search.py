@@ -95,13 +95,26 @@ def main():
 
         print(f"Kết quả Top {top_k}:")
         print(f"{'ID':<4} | {'Score':<6} | {'Topic':<11} | {'Trích đoạn'}")
-        print("-" * 55)
+        separator_length = 55
+        snippet_length = 28
+        print("-" * separator_length)
+        
         for res in results[:top_k]:
-            max_length = 28
             text = res["text"].replace('\n', ' ')
-            snippet = text[:max_length] + "..." if len(text) > max_length else text
-            print(f"{res['id']:<4} | {res['score']:.4f} | {res['topic']:<11} | {snippet}")
-        print("-" * 55 + "\n")
+            snippet = (
+                text[:snippet_length] + "..."
+                if len(text) > snippet_length
+                else text
+            )
+
+            print(
+                f"{res['id']:<4} | "
+                f"{res['score']:.4f} | "
+                f"{res['topic']:<11} | "
+                f"{snippet}"
+            )
+
+        print("-" * separator_length + "\n")
 
 if __name__ == "__main__":
     main()
