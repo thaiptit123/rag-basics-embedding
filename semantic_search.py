@@ -88,26 +88,36 @@ def main():
         # Sắp xếp kết quả theo điểm số giảm dần
         results = sorted(results, key=lambda x: x["score"], reverse=True)
 
+        # Lọc kết quả theo Threshold (ví dụ: 0.3)
+        # Lưu ý: Ngưỡng này phải được thực nghiệm trên từng tập dữ liệu cụ thể, 
+        # không nên đặt mặc định cố định cho mọi bài toán.
+        THRESHOLD = 0.3
+        filtered_results = [res for res in results if res["score"] >= THRESHOLD]
+
         print(f"Kết quả Top {top_k}:")
         print(f"{'ID':<4} | {'Score':<6} | {'Topic':<11} | {'Trích đoạn'}")
+        
         separator_length = 55
         snippet_length = 28
         print("-" * separator_length)
         
-        for res in results[:top_k]:
-            text = res["text"].replace('\n', ' ')
-            snippet = (
-                text[:snippet_length] + "..."
-                if len(text) > snippet_length
-                else text
-            )
+        if not filtered_results:
+            print("Không tìm thấy kết quả phù hợp.")
+        else:
+            for res in filtered_results[:top_k]:
+                text = res["text"].replace("\n", " ")
+                snippet = (
+                    text[:snippet_length] + "..."
+                    if len(text) > snippet_length
+                    else text
+                )
 
-            print(
-                f"{res['id']:<4} | "
-                f"{res['score']:.4f} | "
-                f"{res['topic']:<11} | "
-                f"{snippet}"
-            )
+                print(
+                    f"{res['id']:<4} | "
+                    f"{res['score']:.4f} | "
+                    f"{res['topic']:<11} | "
+                    f"{snippet}"
+                )
 
         print("-" * separator_length + "\n")
 
