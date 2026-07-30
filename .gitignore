@@ -1,0 +1,11 @@
+model_cache/
+__pycache__/
+venv/
+*.pdf
+*.tex
+*.out
+*.log
+*.aux
+*.toc
+*.fls
+*.fdb_latexmk

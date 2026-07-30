@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "topic": "phap_luat",
+    "text": "Doanh nghiệp có nghĩa vụ nộp thuế thu nhập doanh nghiệp theo quy định của pháp luật hiện hành. Mức thuế suất phổ thông là 20% trên tổng thu nhập chịu thuế, trừ một số trường hợp được hưởng ưu đãi đầu tư."
+  },
+  {
+    "id": 2,
+    "topic": "phap_luat",
+    "text": "Thủ tục thành lập công ty trách nhiệm hữu hạn hai thành viên trở lên bao gồm việc chuẩn bị hồ sơ, nộp lệ phí và đăng ký tại Sở Kế hoạch và Đầu tư tỉnh/thành phố nơi đặt trụ sở chính."
+  },
+  {
+    "id": 3,
+    "topic": "phap_luat",
+    "text": "Người lao động có quyền làm việc, tự do lựa chọn việc làm, nghề nghiệp, học nghề, nâng cao trình độ nghề nghiệp và không bị phân biệt đối xử, cưỡng bức lao động, quấy rối tình dục tại nơi làm việc."
+  },
+  {
+    "id": 4,
+    "topic": "phap_luat",
+    "text": "Hợp đồng lao động phải được giao kết bằng văn bản và được làm thành 02 bản, người lao động giữ 01 bản, người sử dụng lao động giữ 01 bản, trừ trường hợp hai bên thỏa thuận giao kết hợp đồng lao động bằng lời nói đối với công việc tạm thời có thời hạn dưới 01 tháng."
+  },
+  {
+    "id": 5,
+    "topic": "phap_luat",
+    "text": "Tài sản chung của vợ chồng gồm tài sản do vợ, chồng tạo ra, thu nhập do lao động, hoạt động sản xuất, kinh doanh, hoa lợi, lợi tức phát sinh từ tài sản riêng và thu nhập hợp pháp khác trong thời kỳ hôn nhân."
+  },
+  {
+    "id": 6,
+    "topic": "phap_luat",
+    "text": "Người tham gia giao thông phải đi bên phải theo chiều đi của mình, đi đúng làn đường, phần đường quy định và phải chấp hành hệ thống báo hiệu đường bộ."
+  },
+  {
+    "id": 7,
+    "topic": "phap_luat",
+    "text": "Công dân có quyền tự do ngôn luận, tự do báo chí, tiếp cận thông tin, hội họp, lập hội, biểu tình. Việc thực hiện các quyền này do pháp luật quy định."
+  },
+  {
+    "id": 8,
+    "topic": "phap_luat",
+    "text": "Vi phạm hành chính là hành vi có lỗi do cá nhân, tổ chức thực hiện, vi phạm quy định của pháp luật về quản lý nhà nước mà không phải là tội phạm và theo quy định của pháp luật phải bị xử phạt vi phạm hành chính."
+  },
+  {
+    "id": 9,
+    "topic": "phap_luat",
+    "text": "Quyền tác giả đối với tác phẩm quy định tại Luật Sở hữu trí tuệ phát sinh kể từ khi tác phẩm được sáng tạo và được thể hiện dưới một hình thức vật chất nhất định, không phân biệt nội dung, chất lượng, hình thức, phương tiện, ngôn ngữ."
+  },
+  {
+    "id": 10,
+    "topic": "phap_luat",
+    "text": "Bảo hiểm xã hội là sự bảo đảm thay thế hoặc bù đắp một phần thu nhập của người lao động khi họ bị giảm hoặc mất thu nhập do ốm đau, thai sản, tai nạn lao động, bệnh nghề nghiệp, hết tuổi lao động hoặc chết."
+  },
+  {
+    "id": 11,
+    "topic": "cong_nghe",
+    "text": "Trí tuệ nhân tạo (AI) đang phát triển mạnh mẽ và được ứng dụng rộng rãi trong nhiều lĩnh vực như y tế, giáo dục, giao thông và tài chính, giúp tối ưu hóa quy trình và giảm thiểu sức lao động của con người."
+  },
+  {
+    "id": 12,
+    "topic": "cong_nghe",
+    "text": "Điện toán đám mây (Cloud Computing) cho phép người dùng truy cập và sử dụng các tài nguyên công nghệ thông tin như máy chủ, không gian lưu trữ và ứng dụng qua Internet thay vì phải đầu tư phần cứng cục bộ."
+  },
+  {
+    "id": 13,
+    "topic": "cong_nghe",
+    "text": "Công nghệ Blockchain hoạt động như một cuốn sổ cái phân tán, ghi lại các giao dịch một cách minh bạch, an toàn và không thể bị sửa đổi, ứng dụng lớn nhất hiện nay là tiền điện tử (Cryptocurrency)."
+  },
+  {
+    "id": 14,
+    "topic": "cong_nghe",
+    "text": "Internet vạn vật (IoT) là mạng lưới các thiết bị vật lý được nhúng cảm biến, phần mềm và các công nghệ khác nhằm mục đích kết nối và trao đổi dữ liệu với các thiết bị, hệ thống khác trên mạng lưới Internet."
+  },
+  {
+    "id": 15,
+    "topic": "cong_nghe",
+    "text": "Mạng 5G là thế hệ mạng di động thứ 5, hứa hẹn mang lại tốc độ truyền tải dữ liệu siêu nhanh, độ trễ cực thấp và khả năng kết nối đồng thời hàng triệu thiết bị trên mỗi kilomet vuông."
+  },
+  {
+    "id": 16,
+    "topic": "cong_nghe",
+    "text": "An toàn thông tin mạng là sự bảo vệ thông tin, hệ thống thông tin trên mạng tránh bị truy nhập, sử dụng, tiết lộ, gián đoạn, sửa đổi hoặc phá hoại trái phép nhằm bảo đảm tính nguyên vẹn, tính bảo mật và tính khả dụng của thông tin."
+  },
+  {
+    "id": 17,
+    "topic": "cong_nghe",
+    "text": "Big Data (Dữ liệu lớn) đề cập đến các tập dữ liệu có khối lượng khổng lồ, tốc độ gia tăng nhanh và độ phức tạp cao, đòi hỏi các công nghệ và phương pháp phân tích tiên tiến để trích xuất giá trị."
+  },
+  {
+    "id": 18,
+    "topic": "cong_nghe",
+    "text": "Học máy (Machine Learning) là một tập hợp con của trí tuệ nhân tạo, tập trung vào việc phát triển các thuật toán và mô hình thống kê để máy tính có thể học và đưa ra dự đoán dựa trên dữ liệu mà không cần được lập trình rõ ràng."
+  },
+  {
+    "id": 19,
+    "topic": "cong_nghe",
+    "text": "Thực tế ảo (VR) và Thực tế tăng cường (AR) đang mở ra những trải nghiệm mới mẻ trong giải trí, đào tạo và mua sắm bằng cách tạo ra môi trường ảo hoặc lồng ghép thông tin kỹ thuật số vào thế giới thực."
+  },
+  {
+    "id": 20,
+    "topic": "cong_nghe",
+    "text": "Điện thoại thông minh ngày nay không chỉ là công cụ liên lạc mà còn đóng vai trò như một máy tính bỏ túi, máy ảnh kỹ thuật số, ví điện tử và trung tâm điều khiển nhà thông minh."
+  }
+]
