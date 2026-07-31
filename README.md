@@ -18,8 +18,12 @@ cd rag-basics-embedding
 python3 --version
 
 # Tạo môi trường ảo và kích hoạt
+# Trên Linux/macOS:
 python3 -m venv venv
 source venv/bin/activate
+# Trên Windows:
+# python -m venv venv
+# venv\Scripts\activate
 
 # Cài đặt các thư viện cần thiết
 pip install -r requirements.txt
