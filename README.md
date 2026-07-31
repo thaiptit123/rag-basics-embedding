@@ -2,36 +2,53 @@
 
 Đây là mã nguồn mẫu cho bài hướng dẫn về kỹ thuật Embedding và Semantic Search cơ bản. Trong tutorial này, chúng ta sử dụng thư viện `sentence-transformers` và model `keepitreal/vietnamese-sbert` để biến văn bản tiếng Việt thành vector và tìm kiếm câu trả lời tương đồng.
 
+## Yêu cầu hệ thống
+- Python 3.8 đến 3.11 (Không dùng Python 3.12+ do không tương thích PyTorch 2.0.1)
+
 ## Cài đặt và Chạy thử nghiệm
 
-> **Lưu ý 1:** Yêu cầu cài đặt sẵn Python phiên bản từ 3.8 đến 3.11 trên máy.
-> **Lưu ý 2:** Hãy đảm bảo bạn chạy tất cả các lệnh dưới đây từ thư mục gốc của repository, vì dữ liệu trong `sample_texts.json` đang được đọc bằng đường dẫn tương đối.
+> **Lưu ý:** Hãy đảm bảo bạn chạy tất cả các lệnh dưới đây từ **thư mục gốc của repository**, vì dữ liệu trong `sample_texts.json` đang được đọc bằng đường dẫn tương đối.
 
 Mở terminal và thực thi tuần tự các lệnh sau:
 
+### 1. Clone repository về máy
+
 ```bash
-# Clone repository về máy
 git clone https://github.com/thaiptit123/rag-basics-embedding.git
 cd rag-basics-embedding
+```
 
-# Kiểm tra phiên bản Python
-python3 --version
+### 2. Tạo môi trường ảo và cài đặt
 
-# Tạo môi trường ảo và kích hoạt
-# Trên Linux/macOS:
+**Trên Linux/macOS:**
+```bash
 python3 -m venv venv
 source venv/bin/activate
-# Trên Windows:
-# python -m venv venv
-# venv\Scripts\activate
-
-# Cài đặt các thư viện cần thiết
-pip install -r requirements.txt
-
-# Kiểm tra thư viện và môi trường
+python3 -m pip install -r requirements.txt
 python3 check_env.py
+```
 
-# Chạy hệ thống tìm kiếm ngữ nghĩa
+**Trên Windows (PowerShell):**
+```powershell
+py -3.10 -m venv venv
+.\venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python check_env.py
+```
+
+**Trên Windows (Command Prompt):**
+```bat
+py -3.10 -m venv venv
+venv\Scripts\activate.bat
+python -m pip install -r requirements.txt
+python check_env.py
+```
+
+Sau khi chạy `check_env.py` thành công và in ra thông tin phiên bản, bạn đã có thể chạy script chính.
+
+### 3. Chạy hệ thống tìm kiếm ngữ nghĩa
+
+```bash
 python3 semantic_search.py
 ```
 
