@@ -47,7 +47,7 @@ python check_env.py
 python semantic_search.py
 ```
 
-Sau khi chạy `check_env.py` thành công và in ra thông tin phiên bản, hệ thống sẽ chạy script chính `semantic_search.py`.
+Sau khi chạy `check_env.py` thành công và in ra thông tin phiên bản, bạn có thể chạy script chính `semantic_search.py`.
 
 Lần đầu tiên chạy, hệ thống sẽ tự động kết nối Internet và tải model ngôn ngữ từ Hugging Face về thư mục `model_cache` trong repo. Các lần sau hệ thống sẽ tải rất nhanh hoàn toàn offline.
 
