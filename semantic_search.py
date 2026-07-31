@@ -88,9 +88,9 @@ def main():
         # Sắp xếp kết quả theo điểm số giảm dần
         results = sorted(results, key=lambda x: x["score"], reverse=True)
 
-        # Lọc kết quả theo Threshold (ví dụ: 0.3)
-        # Lưu ý: Ngưỡng này phải được thực nghiệm trên từng tập dữ liệu cụ thể, 
-        # không nên đặt mặc định cố định cho mọi bài toán.
+        # Lưu ý: Ngưỡng 0.3 chỉ là giá trị minh họa.
+        # Trong thực tế, cần hiệu chỉnh giá trị này trên validation set
+        # của từng bài toán hoặc tập dữ liệu cụ thể.
         THRESHOLD = 0.3
         filtered_results = [res for res in results if res["score"] >= THRESHOLD]
 
