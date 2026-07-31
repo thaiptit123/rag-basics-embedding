@@ -30,18 +30,22 @@ python3 check_env.py
 
 **Trên Windows (PowerShell):**
 ```powershell
+# Windows PowerShell
 py -3.10 -m venv venv
 .\venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 python check_env.py
+python semantic_search.py
 ```
 
 **Trên Windows (Command Prompt):**
 ```bat
+:: Windows Command Prompt
 py -3.10 -m venv venv
 venv\Scripts\activate.bat
 python -m pip install -r requirements.txt
 python check_env.py
+python semantic_search.py
 ```
 
 Sau khi chạy `check_env.py` thành công và in ra thông tin phiên bản, bạn đã có thể chạy script chính.
