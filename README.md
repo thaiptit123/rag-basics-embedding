@@ -20,15 +20,15 @@ cd rag-basics-embedding
 
 ### 2. Tạo môi trường ảo và cài đặt
 
-**Trên Linux/macOS:**
 ```bash
+# Linux/macOS
 python3 -m venv venv
 source venv/bin/activate
 python3 -m pip install -r requirements.txt
 python3 check_env.py
+python3 semantic_search.py
 ```
 
-**Trên Windows (PowerShell):**
 ```powershell
 # Windows PowerShell
 py -3.10 -m venv venv
@@ -38,7 +38,6 @@ python check_env.py
 python semantic_search.py
 ```
 
-**Trên Windows (Command Prompt):**
 ```bat
 :: Windows Command Prompt
 py -3.10 -m venv venv
