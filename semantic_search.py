@@ -50,8 +50,8 @@ def main():
 
     # 4. Truy vấn thử nghiệm với các chủ đề khác nhau
     queries = [
-        "Điều kiện để mở công ty trách nhiệm hữu hạn là gì?",
-        "Machine learning khác gì trí tuệ nhân tạo?",
+        "Nhà nước thu hồi đất trong trường hợp nào?",
+        "Cần bao nhiêu người để mở công ty cổ phần?",
         "Hôm nay thời tiết thế nào?"
     ]
     
