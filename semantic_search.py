@@ -51,7 +51,7 @@ def main():
     # 4. Truy vấn thử nghiệm với các chủ đề khác nhau
     queries = [
         "Nhà nước thu hồi đất trong trường hợp nào?",
-        "Cần bao nhiêu người để mở công ty cổ phần?",
+        "Việt kiều có được mua nhà đất ở Việt Nam không?",
         "Hôm nay thời tiết thế nào?"
     ]
     
